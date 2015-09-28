@@ -1,0 +1,40 @@
+
+
+
+
+public class Reservation {
+    public Integer price = 0;
+    public String route;
+    public String trans;
+
+    public Reservation(Integer price,String route,String trans) {
+        this.price = price;
+        this.route = route;
+        this.trans = trans;
+
+    }
+
+    public Integer getPrice() {
+        return price;
+    }
+
+    public void setPrice(Integer price) {
+        this.price = price;
+    }
+
+    public String getRoute() {
+        return route;
+    }
+
+    public void setRoute(String route) {
+        this.route = route;
+    }
+
+    public String getTrans() {
+        return trans;
+    }
+
+    public void setTrans(String trans) {
+        this.trans = trans;
+    }
+}
