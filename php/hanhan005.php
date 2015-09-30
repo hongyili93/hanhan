@@ -9,7 +9,7 @@
     background-color: black;
 }
 </style>
-<table border="0" width="500" height="500" cellpadding="0" cellspacing="0">
+<table border="0" width="240" height="240" cellpadding="0" cellspacing="0">
 <?php
     for($i=0; $i<8; $i++) {
         echo "<tr>";
