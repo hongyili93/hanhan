@@ -1,15 +1,22 @@
 import static java.lang.Math;
-
-public class antenna {
+public class main {
     private double f;
     private double cMax;
     private double cMin;
     private double l;
 
-    public antenna(double f, double cMin, double cMax) {
-        this.f = f;
-        this.cMin = cMin;
-        this.cMax = cMax;
+    public static void main(String args[]) throws IOException {
+
+        System.out.println("Please enter f");
+        Scanner inputReader = new Scanner(System.in);
+        this.f = inputReader.nextDouble();
+
+        System.out.println("Please enter cMin");
+        this.cMin = inputReader.nextDouble();
+
+        System.out.println("Please enter cMax");
+        this.cMax = inputReader.nextDouble();
+
         this.l = calculatel();
         double fMin = calculateFrequency(cMax);
         double fMax = calculateFrequency(cMin);
